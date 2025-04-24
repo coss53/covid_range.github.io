@@ -1,7 +1,7 @@
 <?php 
-$server = 'localhost';
-$username = 'postgres';
-$password = '136902';
+$server = 'postgresql://covid_range_user:bwIUYLuFto9IBUg55LJAAzHs0sbD7qSJ@dpg-d0518sngi27c73c7n49g-a.oregon-postgres.render.com/covid_range';
+$username = 'covid_range_user';
+$password = 'bwIUYLuFto9IBUg55LJAAzHs0sbD7qSJ';
 $bd_name = 'covid_range';
 
 $bdcon = pg_connect("host=$server port=5432 dbname=$bd_name user=$username password=$password");
